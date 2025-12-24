@@ -7,7 +7,7 @@ Some people use tools like `sdkman!`, but I prefer to have a cleaner "system-lev
 the best approach is to use a Global Version Manager combined with a Shared Truststore.
 
 ---
-## TL;TR
+## TL;DR
 ### 1. Version Management: **jEnv**
 It simply manages the JDKs you already have.
 
