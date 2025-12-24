@@ -1,0 +1,58 @@
+site_name: Raph's cheatsheets
+site_url: https://neoraph.github.io/cheatsheets/
+repo_url: https://github.com/neoraph/cheatsheets
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.integrated
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.links
+nav:
+  - Home: index.md
+  - Git: Git/git.md
+  - Java: Java/multiple_jdks_cert.md
+
+markdown_extensions:
+  - admonition # Enable admonition extension for notes, warnings, etc.
+  - codehilite # Syntax highlighting for code blocks
+  - footnotes # Support for footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols # Convert symbols like (c) to ©
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+
+# Needs for math rendering
+extra_javascript:
+  - javascript/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
