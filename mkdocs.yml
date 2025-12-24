@@ -1,6 +1,6 @@
 site_name: Raph's cheatsheets
-site_url: https://neoraph.github.io/cheatsheets/
-repo_url: https://github.com/neoraph/cheatsheets
+site_url: https://neoraph.github.io/
+repo_url: https://github.com/neoraph/neoraph.github.io
 theme:
   name: material
   palette:
